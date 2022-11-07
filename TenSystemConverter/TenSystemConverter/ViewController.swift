@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     @IBAction func numSysController(_ sender: UISegmentedControl) {
         let selection = sender.selectedSegmentIndex
         var tempEnum: Int? = Int(eNum.text!)
-        
+                
         if(sender.selectedSegmentIndex == 0)
         {
             titleOfResult.text = String(tempEnum!, radix: 2)
