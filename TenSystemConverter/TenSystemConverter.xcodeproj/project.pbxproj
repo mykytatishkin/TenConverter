@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9009850B2919680600A7969D /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9009850A2919680600A7969D /* MoreViewController.swift */; };
 		90A4E9A12917DD120099A0D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4E9A02917DD120099A0D0 /* AppDelegate.swift */; };
 		90A4E9A32917DD120099A0D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4E9A22917DD120099A0D0 /* SceneDelegate.swift */; };
 		90A4E9A52917DD120099A0D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4E9A42917DD120099A0D0 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9009850A2919680600A7969D /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		90A4E99D2917DD120099A0D0 /* TenSystemConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenSystemConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A4E9A02917DD120099A0D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90A4E9A22917DD120099A0D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				90A4E9A02917DD120099A0D0 /* AppDelegate.swift */,
 				90A4E9A22917DD120099A0D0 /* SceneDelegate.swift */,
 				90A4E9A42917DD120099A0D0 /* ViewController.swift */,
+				9009850A2919680600A7969D /* MoreViewController.swift */,
 				90A4E9A62917DD120099A0D0 /* Main.storyboard */,
 				90A4E9A92917DD130099A0D0 /* Assets.xcassets */,
 				90A4E9AB2917DD130099A0D0 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90A4E9A52917DD120099A0D0 /* ViewController.swift in Sources */,
+				9009850B2919680600A7969D /* MoreViewController.swift in Sources */,
 				90A4E9A12917DD120099A0D0 /* AppDelegate.swift in Sources */,
 				90A4E9A32917DD120099A0D0 /* SceneDelegate.swift in Sources */,
 			);

@@ -42,8 +42,9 @@ class ViewController: UIViewController {
     @IBAction func copyText(_ sender: Any) {
         print("Button tapped")
         UIPasteboard.general.string = titleOfResult.text
-
-
     }
+    
+   let MoreViewController = MoreViewController()
+    MoreViewController.
 }
 
