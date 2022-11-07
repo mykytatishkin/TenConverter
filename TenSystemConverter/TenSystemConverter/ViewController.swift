@@ -43,8 +43,6 @@ class ViewController: UIViewController {
         print("Button tapped")
         UIPasteboard.general.string = titleOfResult.text
     }
-    
-   let MoreViewController = MoreViewController()
-    MoreViewController.
+
 }
 

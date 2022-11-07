@@ -20,7 +20,6 @@ class MoreViewController: UIViewController {
     @IBOutlet weak var resultOfCalculatings: UILabel!
     
     @IBAction func calculateRadix(_ sender: Any) {
-        resultOfCalculatings.eNum.text
         
         var tempEnum: Int? = Int(enteredNum.text!)
         var tempRadix: Int? = Int(enteredRadix.text!)
