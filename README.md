@@ -10,6 +10,7 @@ In this application you can convert nums from decimal to binary, octav and hexde
 <b>Fixed:</b>
 - Crashing by pressing on button
 - Crashing by enterence not a digits
+
 <b>Added:</b>
 - Copy button
 - Example of enterence
