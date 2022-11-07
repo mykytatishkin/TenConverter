@@ -9,10 +9,11 @@ In this application you can convert nums from decimal to binary, octav and hexde
 ## 1.1
 <b>Fixed:</b>
 - Crashing by pressing on button
-
+- Crashing by enterence not a digits
 <b>Added:</b>
 - Copy button
 - Example of enterence
+- Enterence only digits
 
 ## 1.0 
 <b> Application realise </b>
