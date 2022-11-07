@@ -12,15 +12,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        let textField = UITextField()
+        eNum.keyboardType = .numberPad
         
     }
-    
     @IBOutlet weak var eNum: UITextField!
     @IBOutlet weak var titleOfResult: UILabel!
     
+    @IBOutlet weak var sysController: UISegmentedControl!
     @IBAction func numSysController(_ sender: UISegmentedControl) {
+        let selection = sender.selectedSegmentIndex
         var tempEnum: Int? = Int(eNum.text!)
+        
         if(sender.selectedSegmentIndex == 0)
         {
             titleOfResult.text = String(tempEnum!, radix: 2)
@@ -33,6 +36,14 @@ class ViewController: UIViewController {
         {
             titleOfResult.text  = String(tempEnum!, radix: 16)
         }
+        
+    }
+
+    @IBAction func copyText(_ sender: Any) {
+        print("Button tapped")
+        UIPasteboard.general.string = titleOfResult.text
+
+
     }
 }
 
