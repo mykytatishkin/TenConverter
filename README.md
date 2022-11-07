@@ -6,6 +6,13 @@ In this application you can convert nums from decimal to binary, octav and hexde
 
 ![Image text](https://github.com/GTeasera/TenConverter/blob/main/TenSystemConverter/TenSystemConverter/Assets.xcassets/AppIcon.appiconset/mac512.png)
 
+## 1.2
+<b> Added:</b>
+- Copy text by clikick on it
+
+<b> Removed:</b>
+- Button for copy num
+
 ## 1.1
 <b>Fixed:</b>
 - Crashing by pressing on button
