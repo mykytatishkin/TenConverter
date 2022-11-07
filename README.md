@@ -1,4 +1,5 @@
 # TenConverter
+![realese](https://img.shields.io/date/1667757600)
 
 This is my first Swift application.
 It was made for my laboratory work in Vilnius Tech.
