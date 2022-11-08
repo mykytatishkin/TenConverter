@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9009850B2919680600A7969D /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9009850A2919680600A7969D /* MoreViewController.swift */; };
+		9017DBE4291AA6E200656907 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017DBE3291AA6E200656907 /* InfoViewController.swift */; };
 		90A4E9A12917DD120099A0D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4E9A02917DD120099A0D0 /* AppDelegate.swift */; };
 		90A4E9A32917DD120099A0D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4E9A22917DD120099A0D0 /* SceneDelegate.swift */; };
 		90A4E9A52917DD120099A0D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4E9A42917DD120099A0D0 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		9009850A2919680600A7969D /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		9017DBE3291AA6E200656907 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		90A4E99D2917DD120099A0D0 /* TenSystemConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenSystemConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A4E9A02917DD120099A0D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90A4E9A22917DD120099A0D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				90A4E9A22917DD120099A0D0 /* SceneDelegate.swift */,
 				90A4E9A42917DD120099A0D0 /* ViewController.swift */,
 				9009850A2919680600A7969D /* MoreViewController.swift */,
+				9017DBE3291AA6E200656907 /* InfoViewController.swift */,
 				90A4E9A62917DD120099A0D0 /* Main.storyboard */,
 				90A4E9A92917DD130099A0D0 /* Assets.xcassets */,
 				90A4E9AB2917DD130099A0D0 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				9009850B2919680600A7969D /* MoreViewController.swift in Sources */,
 				90A4E9A12917DD120099A0D0 /* AppDelegate.swift in Sources */,
 				90A4E9A32917DD120099A0D0 /* SceneDelegate.swift in Sources */,
+				9017DBE4291AA6E200656907 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = Z5JFGHX665;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TenSystemConverter/Info.plist;
@@ -321,7 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = Z5JFGHX665;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TenSystemConverter/Info.plist;
