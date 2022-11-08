@@ -48,6 +48,7 @@ class MoreViewController: UIViewController {
     
     @IBAction func changeNumButton(_ sender: Any) {
         let mainController = storyboard?.instantiateViewController(withIdentifier: "mainVC") as! ViewController
+        // mainController.eNum.text = numberLabel.text
         mainController.modalPresentationStyle = .fullScreen
         present(mainController, animated: true, completion: nil)
     }
