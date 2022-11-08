@@ -18,6 +18,7 @@ class MoreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        enteredRadix.keyboardType = .numberPad
         if (numberLabel != nil)
         {
             numberLabel.text = number
@@ -35,6 +36,19 @@ class MoreViewController: UIViewController {
     */
 
     @IBAction func MoreRadixCalculation(_ sender: Any) {
+        let tempRadix: Int? = Int(enteredRadix.text!)
+        let tempEnum: Int? = Int(numberLabel.text!)
         
+        resultOfMoreRadix.text = String(tempEnum!, radix: tempRadix!)
+    }
+    @IBAction func copyButton(_ sender: Any) {
+        print("Button tapped VC-2")
+        UIPasteboard.general.string = resultOfMoreRadix.text
+    }
+    
+    @IBAction func changeNumButton(_ sender: Any) {
+        let mainController = storyboard?.instantiateViewController(withIdentifier: "mainVC") as! ViewController
+        mainController.modalPresentationStyle = .fullScreen
+        present(mainController, animated: true, completion: nil)
     }
 }
