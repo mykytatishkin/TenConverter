@@ -7,6 +7,10 @@ In this application you can convert nums from decimal to binary, octav and hexde
 
 ![Image text](https://github.com/GTeasera/TenConverter/blob/main/TenSystemConverter/TenSystemConverter/Assets.xcassets/AppIcon.appiconset/mac512.png)
 
+## 1.4 → 1.4.3
+<b> Upgraded: </b>
+- New design
+
 ## 1.4
 <b> Added:</b>
 - New Launch screen
