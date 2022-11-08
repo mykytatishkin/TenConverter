@@ -12,7 +12,7 @@ In this application you can convert nums from decimal to binary, octav and hexde
 - New Launch screen
 - App Instruction
 
-## 1.3 → 1.3.11
+### 1.3 → 1.3.11
 <b> Upgraded: </b>
 - Stable app work
 - Screen with more functions
