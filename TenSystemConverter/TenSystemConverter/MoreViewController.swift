@@ -9,24 +9,21 @@ import UIKit
 
 class MoreViewController: UIViewController {
 
+    
+    @IBOutlet weak var enteredRadix: UITextField!
+    @IBOutlet weak var numberLabel: UILabel!
+    @IBOutlet weak var resultOfMoreRadix: UILabel!
+    var number: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
-    }
-    
-    @IBOutlet weak var enteredNum: UITextField!
-    @IBOutlet weak var enteredRadix: UITextField!
-    @IBOutlet weak var resultOfCalculatings: UILabel!
-    
-    @IBAction func calculateRadix(_ sender: Any) {
+        if (numberLabel != nil)
+        {
+            numberLabel.text = number
+        }
         
-        var tempEnum: Int? = Int(enteredNum.text!)
-        var tempRadix: Int? = Int(enteredRadix.text!)
-        
-        resultOfCalculatings.text = String(tempEnum!, radix: tempRadix!)
     }
-    
     /*
     // MARK: - Navigation
 
@@ -37,4 +34,7 @@ class MoreViewController: UIViewController {
     }
     */
 
+    @IBAction func MoreRadixCalculation(_ sender: Any) {
+        
+    }
 }
