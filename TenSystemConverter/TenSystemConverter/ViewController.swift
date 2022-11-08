@@ -12,17 +12,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let textField = UITextField()
+        _ = UITextField()
         eNum.keyboardType = .numberPad
         
     }
+    
+    @IBAction func moreRadixButton(_ sender: Any) {
+        let controller = storyboard?.instantiateViewController(withIdentifier: "SecondVC") as! MoreViewController
+        controller.number = eNum.text
+        controller.modalPresentationStyle = .fullScreen
+        present(controller,animated: true, completion: nil)
+    }
+    
     @IBOutlet weak var eNum: UITextField!
     @IBOutlet weak var titleOfResult: UILabel!
     
     @IBOutlet weak var sysController: UISegmentedControl!
     @IBAction func numSysController(_ sender: UISegmentedControl) {
-        let selection = sender.selectedSegmentIndex
-        var tempEnum: Int? = Int(eNum.text!)
+        let tempEnum: Int? = Int(eNum.text!)
                 
         if(sender.selectedSegmentIndex == 0)
         {
