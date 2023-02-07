@@ -6,15 +6,29 @@
 //
 
 import UIKit
+import UserNotifications
+import Foundation
 
 class ViewController: UIViewController {
-
+    
+    let notificationCenter = UNUserNotificationCenter.current()
+    let options: UNAuthorizationOptions = [.alert, .sound, .badge]
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         _ = UITextField()
         eNum.keyboardType = .numberPad
         
+        notificationCenter.requestAuthorization(options: options) {
+            (didAllow, error) in
+            if !didAllow {
+                print("User has declined notifications")
+
+            }
+        }
     }
     
     @IBAction func moreRadixButton(_ sender: Any) {
